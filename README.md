@@ -1,7 +1,7 @@
 # Python Syntax Basics
 
-- [ ] Variables
-- [ ] Data Types
+- [ x ] Variables
+- [ x ] Data Types
 - [ ] Conditionals
 - [ ] Loops
 - [ ] Exceptions

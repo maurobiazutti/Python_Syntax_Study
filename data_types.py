@@ -9,9 +9,9 @@ b = 3.4
 c = -5.6
 
 #Complexos
-d = 1 + 2i
-e = 3 - 4i
-f = 0.5i
+# d = 1 + 2i
+# e = 3 - 4i
+# f = 0.5i
 
 #Strings
 ola = "Olá, mundo!"
