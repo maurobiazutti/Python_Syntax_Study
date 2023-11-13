@@ -21,3 +21,6 @@ TAXA_DE_JUROS = 0.1  # Embora isso seja possível, é uma prática ruim
 constantes = (0.05, 7)
 TAXA_DE_JUROS = constantes[0]  # Isso é mais seguro, mas ainda não é completamente imutável
 
+# Concatenação
+print(f"Bem vindo {nome} {sobre_nome}! Sua idade é {idade}?")
+print("Bem vindo " + str(nome) + str(sobre_nome) + "! Sua idade é " + str(idade) + "?")
