@@ -1,12 +1,13 @@
 # Python Syntax Basics
 
-- [ x ] Variables
-- [ x ] Data Types
-- [ ] Conditionals
+- [x] Variables
+- [x] Data Types
+- [x] Conditionals
 - [ ] Loops
 - [ ] Exceptions
 - [ ] Functions
-- [ ] Lists
+- [x] Lists
 - [ ] Tuples
 - [ ] Sets
 - [ ] Dictionaries
+- [x] Input
