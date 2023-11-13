@@ -12,6 +12,13 @@ maiusculas = texto_01.upper()
 print(minusculas)
 print(maiusculas)
 
+#capitalize(): Poem a primeira letra em Maiusculo
+nome = "mauro biazutti de lima"
+print(nome.capitalize()) #Saída Mauro biazutti de lima
+
+#title(): Poem todas as letra do começo em Maiuscula
+print(nome.title()) #Saída Mauro Biazutti De Lima
+
 #strip(): Remove espaços em branco no início e no final da string.
 texto_02 = "    Minha vagas já esta GARANTIDA"
 texto_sem_espaco = texto_02.strip()
@@ -53,6 +60,25 @@ print(posicao_02) #Saída 20
 posicao_03 = texto_01.find("Y")
 print(posicao_03) #Saída -1
 
+# Pegando pedaços da String
+email = "mauro_biazutti@hotmail.com"
+posicao_arroba = email.find("@")
+print(f"Posição do @ é {posicao_arroba}") #Saída 14
+
+servidor = email[posicao_arroba:] 
+print(servidor) #Saida @hotmail.com
+
+nome_email = email[:posicao_arroba]
+print(nome_email) #mauro_biazutti
+
+#Pega so o primeiro nome
+nome = "mauro biazutti de lima"
+pos_espaco = nome.find(" ")
+print(f"Posição do primeiro espaço é: {pos_espaco}") #Saída Posição do primeiro espaço é: 5
+primeiro_nome = nome[:pos_espaco]
+print(f"Primeiro nome é {primeiro_nome.capitalize()}") #Saída Primeiro nome é Mauro
+
+
 posicao_01 = texto_01.index("vagas")
 print(posicao_01) #Saída 6
 
@@ -75,3 +101,18 @@ alfanumerico = "abc123"
 print(alfanumerico.isalnum()) #Saída True
 
 
+#Formatar numeros
+numero = 1000
+
+print(f"{numero:.1f}") #Saída 1000.0
+print(f"{numero:.2f}") #Saída 1000.00
+print(f"{numero:,.2f}") #Saída 1,000.00
+
+faturamento = 1000
+custo = 700
+lucro = faturamento - custo
+margem = lucro / faturamento
+
+print(f"Margem: {margem}") #Saída Margem: 0.3
+print(f"Margem: {margem:.1%}") #Saída Margem: 30.0%
+print(f"Margem: {margem:.0%}") #Saída Margem: 30%
