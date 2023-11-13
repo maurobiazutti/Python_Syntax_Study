@@ -9,5 +9,5 @@
 - [x] Lists
 - [ ] Tuples
 - [ ] Sets
-- [ ] Dictionaries
+- [x] Dictionaries
 - [x] Input
