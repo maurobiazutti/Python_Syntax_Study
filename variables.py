@@ -1,3 +1,5 @@
+# Variavais
+
 # Exemplo 1: Atribuindo um valor a uma variável
 nome = "João"
 idade = 25
