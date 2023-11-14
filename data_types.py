@@ -1,3 +1,5 @@
+#Tipos de dados em Python
+
 #Inteiros
 x = 1
 y = 1000
@@ -41,5 +43,5 @@ t = {"a": 1, "b": 2, "c": 3}
 #set (conjunto):
 conjunto = {1, 2, 3}
 
-#Tipos de None:
+#Tipos None:
 nulo = None
