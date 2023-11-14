@@ -3,6 +3,9 @@
 vendas = [100, 50, 80, 120, 170]
 produtos = ["celular", "monitor", "teclado", "memoria", "fone"]
 
+
+print(vendas) # Saída 100
+
 # Pegar itens do array por posição do indece 
 print(vendas[0]) # Saída 100
 print(vendas[1]) # Saída 50
