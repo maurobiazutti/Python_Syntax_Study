@@ -5,9 +5,9 @@
 - [x] Conditionals
 - [X] Loops
 - [ ] Exceptions
-- [ ] Functions
+- [x] Functions
 - [x] Lists
-- [ ] Tuples
+- [x] Tuples
 - [ ] Sets
 - [x] Dictionaries
 - [x] Input
