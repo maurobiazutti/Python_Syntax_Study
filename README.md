@@ -3,7 +3,7 @@
 - [x] Variables
 - [x] Data Types
 - [x] Conditionals
-- [ ] Loops
+- [X] Loops
 - [ ] Exceptions
 - [ ] Functions
 - [x] Lists
