@@ -1,7 +1,7 @@
 # While 
 
 #Exemplo de uso do While: 
-Numeros impares ate 50
+#Numeros impares ate 50
 num = 1
 while num <= 50:
     if num % 2 == 1:
