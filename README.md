@@ -11,4 +11,4 @@
 - [ ] Sets
 - [x] Dictionaries
 - [x] Input
-- [ ] While
+- [x] While
