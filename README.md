@@ -13,4 +13,5 @@
 - [x] Input
 - [x] While
 - [x] Files
-- [x] Modules
+- [x] Modules OS
+- [x] Modules Requests
