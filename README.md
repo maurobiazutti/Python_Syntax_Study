@@ -12,3 +12,4 @@
 - [x] Dictionaries
 - [x] Input
 - [x] While
+- [x] Files
