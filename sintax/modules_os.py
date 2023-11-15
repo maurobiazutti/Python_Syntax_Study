@@ -53,3 +53,13 @@ for nome_arq in lista_arquivos:
             os.rename(f"arquivos/{nome_arq}", f"arquivos/22/{nome_arq}")
         elif "23" in nome_arq:
             os.rename(f"arquivos/{nome_arq}", f"arquivos/23/{nome_arq}") 
+            
+
+
+#Codigo que usei para mover arquivos .py para dentro da pasta sintax
+lista = os.listdir()
+# print(lista)
+
+for nome in lista:
+    if ".py" in nome:
+        os.rename(nome, f"sintax/{nome}")
