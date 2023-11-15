@@ -13,3 +13,4 @@
 - [x] Input
 - [x] While
 - [x] Files
+- [x] Modules
