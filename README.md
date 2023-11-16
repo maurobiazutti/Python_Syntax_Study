@@ -23,6 +23,7 @@
 - [x] Classes
 - [x] Objects
 - [x] Constructor
+- [ ] Decoretion
 - [ ] Destructor
 - [ ] Inheritance
 - [ ] Encapsulation
