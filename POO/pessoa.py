@@ -58,4 +58,5 @@ class Pessoa:
         self.falando = False
         
     def get_ano_nascimendo(self):
-        return self.ano_atual - self.idade
+        print(self.ano_atual - self.idade)
+        return 
