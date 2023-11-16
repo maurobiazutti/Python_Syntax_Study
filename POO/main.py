@@ -14,3 +14,9 @@ p1.falar('tecnologia')
 p1.parar_comer()
 p1.comer('pizza')
 p1.get_ano_nascimendo()
+
+
+p2 = Pessoa.por_ano_nascimento('Marcos', 1989)
+
+print(p2.nome, p2.idade)
+p2.get_ano_nascimendo()
