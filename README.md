@@ -20,9 +20,9 @@
 
 ## Object Orientation in Python
 
-- [] Classes
-- [] Objects
-- [] Constructor
+- [x] Classes
+- [x] Objects
+- [x] Constructor
 - [] Destructor
 - [] Inheritance
 - [] Encapsulation
