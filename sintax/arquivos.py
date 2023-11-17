@@ -35,6 +35,6 @@ for item in info:
     #print(valor)
     total_vendas += valor
 
-print(f"Volor total de vendas é de R${total_vendas}")
+print(f"Volor total de vendas é de R${total_vendas:,.2f}")
 
 
