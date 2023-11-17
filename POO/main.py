@@ -20,3 +20,6 @@ p2 = Pessoa.por_ano_nascimento('Marcos', 1989)
 
 print(p2.nome, p2.idade)
 p2.get_ano_nascimendo()
+
+print(Pessoa.gera_id())
+print(p1.gera_id())
