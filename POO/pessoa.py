@@ -1,4 +1,5 @@
 from datetime import datetime
+from random import randint
 
 # Class
 # Toda class tem Atributos e Metodos
@@ -56,14 +57,21 @@ class Pessoa:
         
         print(f'{self.nome} parou de falar.')
         self.falando = False
-        
+     
+    # Metodo de instancia: precisa de um objeto para ser executado    
     def get_ano_nascimendo(self):
         print(self.ano_atual - self.idade)
         return 
     
+    # São metodos relativos a class inteira metodo global
     @classmethod
     def por_ano_nascimento(cls, nome, ano_nascimento):
         idade = cls.ano_atual - ano_nascimento
         return cls(nome, idade)
 
- 
+    # Metodo não precisa da instancia e nem da class, 
+    # como se fosse uma função normal que fica dentro da class por organização.
+    @staticmethod 
+    def gera_id():
+        rand = randint(100000, 199990)
+        return rand
