@@ -23,9 +23,9 @@
 - [x] Classes
 - [x] Objects
 - [x] Constructor
-- [ ] Decoretion
+- [X] Decoretion
 - [ ] Destructor
 - [ ] Inheritance
-- [ ] Encapsulation
+- [X] Encapsulation
 - [ ] Polymorphism
 - [ ] Abstraction
